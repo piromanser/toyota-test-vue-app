@@ -2,15 +2,15 @@
     <section>
         <div class="container">
             <div class="model-select-menu">
-            <a href="#">Corolla</a>
-            <a href="#">Camry</a>
-            <a href="#">RAV4</a>
-            <a href="#">Highlander</a>
-            <a href="#">Land Cruiser Prado</a>
-            <a href="#">Land Cruiser 200</a>
-            <a href="#">Hilux</a>
-            <a href="#">Fortuner</a>
-            <a href="#">Prius</a>
+            <div><a href="#">Corolla</a></div>
+            <div><a href="#">Camry</a></div>
+            <div><a href="#">RAV4</a></div>
+            <div><a href="#">Highlander</a></div>
+            <div><a href="#">Land Cruiser Prado</a></div>
+            <div><a href="#">Land Cruiser 200</a></div>
+            <div><a href="#">Hilux</a></div>
+            <div><a href="#">Fortuner</a></div>
+            <div><a href="#">Prius</a></div>
         </div>
         </div>
     </section>
@@ -20,5 +20,26 @@
 .model-select-menu {
     display: flex;
     justify-content: space-around;
+    height: 69px;
+}
+
+.model-select-menu div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.model-select-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0.09px;
+    font-weight: 700;
+    padding: 0 10px 0 10px;  
+}
+
+.model-select-menu div:hover {
+    color: #ffffff;
+    background-color: #e50000;
 }
 </style>

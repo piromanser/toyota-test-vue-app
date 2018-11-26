@@ -7,7 +7,7 @@
                     <img src="../assets/contacts-pic1.png" alt="">
                     <div>
                         <p>Телефон</p>
-                        <p>+7 (351) 211-10-10</p>
+                        <p class="tel">+7 (351) 211-10-10</p>
                     </div>
                 </div>
                 <div class="contact-itm">
@@ -32,6 +32,10 @@
 <style lang="scss" scoped>
     h4 {
         text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 85.99px;
+        letter-spacing: 0.16px;
     }
 
     .contacts-block {
@@ -42,6 +46,28 @@
 
     .contact-itm {
         display: flex;
+        flex: 1;
+        padding: 10px;
     }
 
+    .contact-itm img {
+        width: 50px;
+        height: 50px;
+        margin: 6px 14px 6px 6px;
+    }
+
+    .contact-itm>div>p:first-child {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.12px;
+        margin: 0;
+    }
+
+    .contact-itm>div>p:last-child {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.12px;
+
+    }
 </style>

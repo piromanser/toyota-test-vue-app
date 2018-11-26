@@ -53,5 +53,33 @@ section {
 
 .advantages-itm {
     display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.advantages-itm img {
+    width: 30px;
+    height: 30px;
+}
+
+.advantages-itm p {
+    margin: 0 10px 90px 30px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+h4 {
+    color: #333333;
+    font-size: 32px;
+    line-height: 85.99px;
+    letter-spacing: 0.16px;
+    margin-bottom: 5px;
+}
+
+section>p {
+    line-height: 24px;
+    letter-spacing: 0.08px;
 }
 </style>

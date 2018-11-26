@@ -13,8 +13,22 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
-    
-    
+    height: 100vh;   
 }
+
+.container {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: #333333;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 10px;
+} 
 </style>

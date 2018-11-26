@@ -11,7 +11,7 @@
 .container {
     display: flex;
     color: #ffffff;
-    align-items: baseline;
+    align-items: center;
 }
 
 section {
@@ -23,10 +23,21 @@ section {
 }
 
 h3 {
-    margin-right: auto;
+    margin: 0 auto 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 85.99px;
+    letter-spacing: 0.16px;
 }
 
 a {
     margin-left: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    padding: 17px 26px 17px 26px;
+    border-radius: 25px;
+    background-color: #e50000;
 }
 </style>

@@ -13,4 +13,16 @@
 .container {
     text-align: left;
 }
+
+h5 {
+    color: #e50000;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
 </style>

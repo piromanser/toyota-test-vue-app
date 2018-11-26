@@ -8,11 +8,6 @@
     <SectionSelectedModel/>
     <SectionVariations/>
     <SectionInStock/> 
-    <ItemStock/>
-    <ItemStock/>
-    <ItemStock/>
-    <ItemStock/>
-    <ItemStock/>
     <SectionBrief/>
     <SectionLikedAuto/>
     <SectionUnicOffer/>
@@ -80,6 +75,7 @@ export default {
 <style lang="scss">
 body {
   margin: 0;
+  color: #333333;
 }
 
 section {

@@ -2,8 +2,8 @@
     <section>
         <div class="container">
             <div class="liked-block">
-                <h4>Не нашли понравившийся автомобиль?</h4>
-                <p>Возможно нужный вам автомобиль уже стоит на поставке и скоро будет в наличии.<br>Забронируйте его первым!</p>
+                <h4>Не нашли<br>понравившийся автомобиль?</h4>
+                <p>Возможно нужный вам автомобиль уже стоит на поставке и скоро будет в наличии.<br><br>Забронируйте его первым!</p>
                     <ul class="liked-list">
                         <li>
                             <img src="../assets/liked-pic1.png" alt="">
@@ -17,7 +17,7 @@
                             <img src="../assets/liked-pic3.png" alt="">
                             <p>Персональная консультация</p>
                         </li>
-                        <li>
+                        <li class="btn">
                             <a href="#">Оставить заявку</a>
                         </li>
                     </ul>               
@@ -30,10 +30,17 @@
 <style lang="scss" scoped>
 .container {
     display: flex;
+    font-size: 18px;
 
 }
 .liked-block {  
     flex: 2;
+}
+
+.liked-block>p {
+    font-weight: 400;
+    letter-spacing: 0.09px;
+    line-height: 26px;
 }
 
 .liked-list {
@@ -41,14 +48,51 @@
     list-style: none;
     flex-direction: column;
     padding: 0;
+
 }
 
-li {
+.liked-list li {
     display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.liked-list p {
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.09px;
+    margin-left: 5px;
+}
+
+.liked-list img {
+    width: 50px;
+    height: 50px;
 }
 
 .bg {
     background-image: url('../assets/liked-auto-bg.png');
     flex: 3;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+}
+
+.btn {
+    border-radius: 25px;   
+    padding: 17px 37px 17px 37px;
+    background-color: #e50000;
+    display: flex;
+    width: 50%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.08px;
+    text-align: center;
+    margin: auto;
 }
 </style>
