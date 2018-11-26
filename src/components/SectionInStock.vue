@@ -2,11 +2,11 @@
     <div class="container">
         <div class="stock-block">
             <h4>Автомобили в наличии</h4>
-            <ItemStock/>
-            <ItemStock/>
-            <ItemStock/>
-            <ItemStock/>
-            <ItemStock/>
+            <ItemStock @requestPrice="$emit('requestPrice')" />
+            <ItemStock @requestPrice="$emit('requestPrice')" />
+            <ItemStock @requestPrice="$emit('requestPrice')" />
+            <ItemStock @requestPrice="$emit('requestPrice')" />
+            <ItemStock @requestPrice="$emit('requestPrice')" />
         </div>
     </div>
 </template>

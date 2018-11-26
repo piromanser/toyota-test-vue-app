@@ -3,19 +3,21 @@
         <div class="container">
             <h4>Специальные предложения</h4>
             <div class="special-offers-block">
-                <div class="special-offers-itm">
+                <div class="special-offers-item">
                     <p>«Семейный автомобиль»</p>
                     <p><span>-10%</span><br> по госпрограмме</p>
                     <p>У вас большая семья<br>с двумя детьми и более?</p>
                     <a href="#">Получить</a>
                 </div>
-                <div class="special-offers-itm">
+
+                <div class="special-offers-item">
                     <p>«Персональные условия»</p>
                     <p>отдаём А/м<br>на уникальных<br>условиях</p>
                     <p>Отдаем а/м на уникальных условиях. Персональные бонусы и подарки от директора салона.</p>
                     <a href="#">Получить</a>
                 </div>
-                <div class="special-offers-itm">
+
+                <div class="special-offers-item">
                     <p>«Первый автомобиль»</p>
                     <p><span>-10%</span><br> по госпрограмме</p>
                     <p>Вы никогда раньше не владели автомобилем в собственности?</p>
@@ -31,7 +33,7 @@
     display: flex;
 }
 
-.special-offers-itm {
+.special-offers-item {
     flex: 1;
     background-color: #fdfdfd;
     display: flex;
@@ -40,12 +42,12 @@
     padding: 5px;
 }
 
-.special-offers-itm a {
+.special-offers-item a {
     margin-top: auto;
     margin-bottom: 0;
 }
 
-.special-offers-itm:not(:nth-child(2)) a {
+.special-offers-item:not(:nth-child(2)) a {
     margin: auto auto 5px auto;
     margin-bottom: 0;
     text-decoration: none;
@@ -57,7 +59,7 @@
     letter-spacing: 0.08px;
 }
 
-.special-offers-itm:nth-child(2) a {
+.special-offers-item:nth-child(2) a {
     letter-spacing: 0.08px;
     color: #ffffff;
     border: 3px solid #ffffff;
@@ -65,17 +67,15 @@
     margin: auto;
     text-decoration: none;
     padding: 17px 42px 17px 42px;
-
 }
 
-
-.special-offers-itm:not(:nth-child(2)) p:first-child {
+.special-offers-item:not(:nth-child(2)) p:first-child {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.12px;
 }
 
-.special-offers-itm:not(:nth-child(2)) p:nth-child(2) {
+.special-offers-item:not(:nth-child(2)) p:nth-child(2) {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -84,13 +84,13 @@
     margin-top: 0;
 }
 
-.special-offers-itm:not(:nth-child(2)) p:nth-child(2) span {
+.special-offers-item:not(:nth-child(2)) p:nth-child(2) span {
     font-size: 48px;
     font-weight: bold;
     letter-spacing: -1.2px;
 }
 
-.special-offers-itm:nth-child(2) {
+.special-offers-item:nth-child(2) {
     background-image: url('../assets/unic-offer-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,14 +100,14 @@
     color: #ffffff;
 }
 
-.special-offers-itm:nth-child(2) p:first-child {
+.special-offers-item:nth-child(2) p:first-child {
     color: #ffffff;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.12px;
 }
 
-.special-offers-itm:nth-child(2) p:nth-child(2) {
+.special-offers-item:nth-child(2) p:nth-child(2) {
     font-size: 24px;
     line-height: 36px;
     font-weight: 700;
@@ -115,12 +115,12 @@
     text-transform: uppercase;
 }
 
-.special-offers-itm:nth-child(2) p:nth-child(3) {
+.special-offers-item:nth-child(2) p:nth-child(3) {
     line-height: 24px;
     letter-spacing: 0.08px;
 }
 
-.special-offers-itm:not(:nth-child(2)) p:nth-child(3) {
+.special-offers-item:not(:nth-child(2)) p:nth-child(3) {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -131,7 +131,7 @@ h4 {
     font-weight: 700;
     letter-spacing: 0.16px;
     text-align: center;
-    }
+}
 </style>
 
 

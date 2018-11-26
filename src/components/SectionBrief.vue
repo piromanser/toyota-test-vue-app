@@ -24,11 +24,10 @@
     <div class="brief-block">
         <div class="sub-block">
             <img src="../assets/brief-pic.png" alt="">
-            <p>45</p>          
+            <p>45</p>
         </div>
         <p>ДЦ по всей россии</p>
     </div>
-
   </div>
 </template>
 

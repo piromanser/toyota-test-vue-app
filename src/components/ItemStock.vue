@@ -16,13 +16,31 @@
                 <p>Выгода до<span>100 500 ₽</span></p>
                 <p>в кредит от<span>5 000 ₽/мес</span></p>
                 <p style="font-size: 18px; font-weight: 700;"><span style="margin-right: 10px; opacity: 0.7; font-size: 16px; letter-spacing: 0.08px; color: #333333; text-transform: none; margin: 0;">Подробнее:</span>+7 (351)211-10-10</p>                
-                <a href="#">Узнать цену</a>
+                <button class="button button_request-price" @click="$emit('requestPrice')">Узнать цену</button>
             </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+.button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+  &_request-price {
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ce0000;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0.08px;
+    margin: 10px auto;
+  }
+}
+
 .container {
     padding: 0;
 }
@@ -30,7 +48,7 @@
 .stock-block {
     display: flex;
     justify-content: space-around;
-    }
+}
 
 .stock-itm {
     flex: 1;

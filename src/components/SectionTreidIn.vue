@@ -3,6 +3,7 @@
         <div class="container">
             <div class="trade-in-block">
                 <h4>Выгодные условия Treid-in</h4>
+
                 <ul>
                     <li>
                         <p>Экспресс-оценка вашего автомобиля</p>
@@ -21,15 +22,41 @@
                         <p>Для обмена старого авто на новый по программе Trade-in - требуется не более 1 часа.</p>
                     </li>
                 </ul>
+
                 <p>Закажите предварительную онлайн оценку автомобиля</p>
                 <a href="#">Заказать оценку</a>
-                
             </div>
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
+section {
+    // height: 1080px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        position: relative;
+        
+        &::before {
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            left: -20px;
+            top: 0;
+        }
+    }
+}
+
 section {
     background-image: url('../assets/treid-in-bg.png');
     background-repeat: no-repeat;
@@ -45,10 +72,9 @@ section {
     padding: 5px;
     display: flex;
     flex-direction: column;
-
 }
 
-.trade-in-block>p {
+.trade-in-block > p {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
