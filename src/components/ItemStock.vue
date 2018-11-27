@@ -43,6 +43,7 @@
 
 .container {
     padding: 0;
+    margin-bottom: 90px;
 }
 
 .stock-block {
@@ -53,6 +54,10 @@
 .stock-itm {
     flex: 1;
     padding: 7px;
+}
+
+.stock-itm img {
+    margin-right: 35px;
 }
 
 .stock-itm:first-child {
@@ -77,6 +82,7 @@
 .stock-price {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .stock-price p {
@@ -91,7 +97,7 @@
     font-weight: 700;
     letter-spacing: 0.12px;
     color: #e50000;
-    margin-left: 5px;;
+    margin-left: 10px;
 }
 
 .stock-price a {
@@ -103,6 +109,13 @@
     letter-spacing: 0.08px;
     background-color: #e50000;
     border-radius: 25px;  
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 85.99px;
+    letter-spacing: 0.12px;
 }
 
 </style>

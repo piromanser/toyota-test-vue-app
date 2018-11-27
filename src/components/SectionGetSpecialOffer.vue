@@ -12,6 +12,7 @@
     display: flex;
     color: #ffffff;
     align-items: center;
+    height: 140px;
 }
 
 section {
@@ -20,11 +21,12 @@ section {
     background-position: center center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 84px;
 }
 
 h3 {
     margin: 0 auto 0 0;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 85.99px;
     letter-spacing: 0.16px;

@@ -2,6 +2,7 @@
     <section>
         <div class="container">
             <h4>Контакты</h4>
+            <img src="../assets/section-stock-line.png" alt="">
             <div class="contacts-block">
                 <div class="contact-itm">
                     <img src="../assets/contacts-pic1.png" alt="">
@@ -30,12 +31,27 @@
 </template>
 
 <style lang="scss" scoped>
+    section {
+        margin-bottom: 60px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container>img {
+        margin-bottom: 61px;
+    }
+    
     h4 {
         text-align: center;
         font-size: 32px;
         font-weight: 700;
         line-height: 85.99px;
         letter-spacing: 0.16px;
+        margin: 0;
     }
 
     .contacts-block {
@@ -69,5 +85,9 @@
         line-height: 32px;
         letter-spacing: 0.12px;
 
+    }
+
+    .tel {
+        border-bottom: 1px solid #333333;;
     }
 </style>

@@ -23,8 +23,8 @@
                     </li>
                 </ul>
 
-                <p>Закажите предварительную онлайн оценку автомобиля</p>
-                <a href="#">Заказать оценку</a>
+            <p>Закажите предварительную онлайн оценку автомобиля</p>
+            <a href="#">Заказать оценку</a>
             </div>
         </div>
     </section>
@@ -32,7 +32,6 @@
 
 <style lang="scss" scoped>
 section {
-    // height: 1080px;
     padding-top: 300px;
     padding-bottom: 100px;
 }
@@ -62,6 +61,7 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    display: flex;
 }
 
 .trade-in-block {
@@ -80,6 +80,7 @@ section {
     line-height: 30px;
     letter-spacing: 0.12px;
     text-align: center;
+    margin: 49px;
 }
 
 .trade-in-block ul li p:first-child {
@@ -102,7 +103,7 @@ h4 {
     font-weight: 700;
     line-height: 19.2px;
     letter-spacing: 0.16px;
-    margin: 10px;
+    margin: 39px 50px 39px 50px;
 }
 
 .trade-in-block a {
@@ -113,6 +114,7 @@ h4 {
     padding: 17px 37px 17px 37px;
     color: #ffffff;
     text-decoration: none;
+    margin-bottom: 40px;
 }
 </style>
 

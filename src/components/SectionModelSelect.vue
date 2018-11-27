@@ -36,10 +36,13 @@
     letter-spacing: 0.09px;
     font-weight: 700;
     padding: 0 10px 0 10px;  
+    line-height: 85.99px;
 }
 
 .model-select-menu div:hover {
-    color: #ffffff;
     background-color: #e50000;
+    a {
+        color: #ffffff;
+    }
 }
 </style>

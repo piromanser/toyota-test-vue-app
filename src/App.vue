@@ -78,11 +78,16 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+    font-family: "toyota";
+    src: url("./assets/fonts/toyotadisplay_bd.woff") format('woff');
+}
+
 body {
   margin: 0;
   color: #333333;
   position: relative;
-  font-family: sans-serif;
+  font-family: "toyota", sans-serif;
 }
 
 section {

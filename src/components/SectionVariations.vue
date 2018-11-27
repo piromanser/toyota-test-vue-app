@@ -40,7 +40,6 @@ section {
 
 .container {
     display: flex;
-    // background-color: #333333;
     color: #ffffff;
 }
 
@@ -52,34 +51,54 @@ section {
 .variations-header p {
     margin: 0;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .variations-header p:first-child {
     font-size: 50px;
     opacity: 0.2;
+    line-height: 53.28px;
+    text-transform: uppercase;
+    letter-spacing: 0.56px;
+    font-weight: 700;
 }
 
 .variations-header p:last-child {
     font-size: 18px;
-}
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    margin-left: 9px;
+    }
 
 .variations-block {
     flex: 1;
-    padding: 15px;
+    padding: 10px;
 }
 
-.variations-block p {
+.variations-block>p {
     font-size: 14px;
     color: #ffffff;
+    line-height: 18px;
+    letter-spacing: 0.07px;
+    margin-bottom: 0;
 }
 
+
 .variations-block:not(:first-child) {
-    border-left: #ffffff solid 2px;
+    border-left: 2px solid;
+    border-color: rgba(255, 255, 255, 0.2)
+    
 }
 
 .variations-block:hover {
     background-color: #e50000;
     color: #ffffff;
+}
+
+.variations-block:hover p:first-child {
+    opacity: 1;
 }
 
 

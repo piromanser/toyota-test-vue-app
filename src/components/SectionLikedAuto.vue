@@ -3,6 +3,7 @@
         <div class="container">
             <div class="liked-block">
                 <h4>Не нашли<br>понравившийся автомобиль?</h4>
+                <img src="../assets/section-stock-line.png" alt="">
                 <p>Возможно нужный вам автомобиль уже стоит на поставке и скоро будет в наличии.<br><br>Забронируйте его первым!</p>
                     <ul class="liked-list">
                         <li>
@@ -24,6 +25,7 @@
             </div>
             <div class="bg"></div>
         </div>
+        <div class="bg"></div>
     </section>
 </template>
 
@@ -48,13 +50,14 @@
     list-style: none;
     flex-direction: column;
     padding: 0;
+    margin-top: 26px;
 
 }
 
 .liked-list li {
     display: flex;
-    margin: 5px;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .liked-list p {
@@ -62,6 +65,7 @@
     line-height: 40px;
     letter-spacing: 0.09px;
     margin-left: 5px;
+    margin: 0 0 0 10px;
 }
 
 .liked-list img {
@@ -77,7 +81,9 @@
 h4 {
     font-size: 32px;
     font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0.16px;
+    margin-bottom: 0;
 }
 
 .btn {

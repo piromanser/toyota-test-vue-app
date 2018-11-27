@@ -2,17 +2,22 @@
     <section>
         <div class="container">
             <h4>До конца действия акции осталось:</h4>
+            <img src="../assets/section-stock-line.png" alt="">
             <img src="../assets/timer.png" alt="">
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
+section {
+    margin-bottom: 127px;
+}
+
 .container {
     text-align: center;
 }
 
-img {
+img:last-child {
     width: 100%;
 }
 

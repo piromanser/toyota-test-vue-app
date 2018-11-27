@@ -2,6 +2,7 @@
     <section>
         <div class="container">
             <h4>Специальные предложения</h4>
+            <img src="../assets/section-stock-line.png" alt="">
             <div class="special-offers-block">
                 <div class="special-offers-item">
                     <p>«Семейный автомобиль»</p>
@@ -29,6 +30,20 @@
 </template>
 
 <style lang="scss" scoped>
+section {
+    margin-bottom: 70px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        margin-bottom: 59px;
+    }
+}
+
 .special-offers-block {
     display: flex;
 }
@@ -39,7 +54,7 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0 8px 9px rgba(0, 0, 0, 0.2);
-    padding: 5px;
+    padding: 10px;
 }
 
 .special-offers-item a {
@@ -70,9 +85,10 @@
 }
 
 .special-offers-item:not(:nth-child(2)) p:first-child {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.12px;
+    margin-bottom: 59px;
 }
 
 .special-offers-item:not(:nth-child(2)) p:nth-child(2) {
@@ -95,14 +111,14 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     margin: 0 60px 0 60px;
     color: #ffffff;
 }
 
 .special-offers-item:nth-child(2) p:first-child {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.12px;
 }
@@ -131,6 +147,8 @@ h4 {
     font-weight: 700;
     letter-spacing: 0.16px;
     text-align: center;
+    line-height: 85.99px;
+    margin: 0;
 }
 </style>
 

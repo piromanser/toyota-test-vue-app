@@ -43,7 +43,6 @@ h2 {
 }
 
 .header-menu-itm:not(:first-child) {
-    margin-left: 10px;
     padding: 0 10px 0 10px;  
 }
 
@@ -60,11 +59,10 @@ margin: 0;
 .tel  {
     text-align: right;
     font-weight: 700;
-
 }
 
 .header-menu a {
-    font-size: 16px;
+    font-size: 14px;
     color: #333333;
     font-weight: 400;
     text-decoration: none;
@@ -73,12 +71,14 @@ margin: 0;
 .header-menu-itm:not(:first-child):hover {
     color: #ffffff;
     background-color: #e50000;
+    a {
+        color: #ffffff;
+    }
 }
 
 .header-logo {
     width: 60px;
     height: 50px;
-    margin: 10px;
-    margin: 0;
+    margin: 10px 45px 10px 10px;
 }
 </style>

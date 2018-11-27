@@ -10,6 +10,10 @@
 </template>
 
 <style lang="scss" scoped>
+section {
+    margin-bottom: 47px;
+}
+
 .container {
     text-align: left;
 }
@@ -18,6 +22,9 @@ h5 {
     color: #e50000;
     line-height: 32px;
     letter-spacing: 0.09px;
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 p {

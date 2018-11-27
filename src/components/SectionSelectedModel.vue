@@ -11,18 +11,23 @@
             </div>
             <div class="price-block">
                 <div class="price-block-itm">
+                    <img src="../assets/selected-model-line.png" alt="">
                     <p class="lil-latters">Кредит в день от<br><span class="capital-latters">304 ₽*</span></p>
                 </div>
                 <div class="price-block-itm">
+                    <img src="../assets/selected-model-line.png" alt="">
                     <p class="lil-latters">Выгода до<br><span class="capital-latters">365 000 ₽*</span></p>
                 </div>
                 <div class="price-block-itm">
+                    <img src="../assets/selected-model-line.png" alt="">
                     <p class="lil-latters">Скидка по trade-in до<br><span class="capital-latters">50 000 ₽*</span></p>
                 </div>
                 <div class="price-block-itm">
+                    <img src="../assets/selected-model-line.png" alt="">
                     <p class="lil-latters">В подарок<br><span class="capital-latters">3 ТО</span></p>
                 </div>
                 <div class="price-block-itm">
+                    <img src="../assets/selected-model-line.png" alt="">
                     <p class="lil-latters">В подарок<br><span class="capital-latters">зимние шины</span></p>
                 </div>
             </div>
@@ -50,6 +55,7 @@
 <style lang="scss" scoped>
     .container {
         display: flex;
+        margin-bottom: 59px;
     }
 
     .name-block {
@@ -58,6 +64,7 @@
         background-image: url('../assets/name-bg.png');
         background-repeat: no-repeat;
         background-position: center center;
+        margin-bottom: 62px;
     }
 
     .name {
@@ -68,41 +75,45 @@
     .name p:nth-child(1) {
         font-size: 32px;
         margin: 0;
-        margin-bottom: 8px;;
         color: #ffffff;
         letter-spacing: 0.16px;
-
+        line-height: 85.99px;
     }
 
     .name p:nth-child(2) {
         font-size: 24px; 
         margin: 0;
         letter-spacing: 0.12px;
+        line-height: 24px;
     }
 
     .name div {
         position: relative;
-        top: 41px;
+        top: 16px;
         left: 43px;
     }
 
     .lil-latters {
-        font-size: 13px;
-        letter-spacing: 0.01px;
+        font-size: 12px;
+        letter-spacing: 0.07px;
+        text-transform: uppercase;
+        line-height: 35px;
+        font-weight: 700;
     }
 
     .capital-latters {
-        font-size: 16px;
-        font-weight: 700px;
+        font-size: 34px;
+        font-weight: bold;
         text-transform: uppercase;
+        letter-spacing: -0.21px;
     }
 
     .price-aside {
-        flex: 1;
+        flex: 3;
     }
 
     .pic-block {
-        flex: 2;
+        flex: 5;
     }
 
     .price-block {
@@ -110,9 +121,13 @@
         flex-wrap: wrap;
     }
 
+    .price-block p {
+        margin-top: 0;
+    }
+
     .price-block-itm {
         margin:0 15px 0 0;
-        width: 135px;
+        width: 165px;
     }
 
     .pic-block {
@@ -121,21 +136,21 @@
 
     .pic-block img:not(.price-pic) {
         position: absolute;
-        width: 70%;
     }
 
     .pic1 {
         top: 0;
         left: auto;
-        right: 0;
+        right: -195px;
         bottom: auto;
     }
 
     .pic2 {
         top: auto;
-        left: 0;
+        left: -20px;
         right: auto;
-        bottom: 0;
+        bottom: 45px;
+        width: 80%;
     }
 
     .price-pic {
@@ -155,6 +170,9 @@
     .test-drive a {
         letter-spacing: 0.08px;
         color: #e50000;
+        border-bottom: 1px solid;
+        text-decoration: none;
+
     }
 
     .offer-block {
@@ -165,6 +183,7 @@
         border-bottom: dotted 2px #e50000;
         display: inline-block;
         text-align: right;
+        margin-left: 100px;
     }
     .offer-button {
         background-color: #e50000;
@@ -177,5 +196,7 @@
     .offer-button a {
         color: #ffffff;
         text-decoration: none;
+        letter-spacing: 0.08px;
+
     }
 </style>

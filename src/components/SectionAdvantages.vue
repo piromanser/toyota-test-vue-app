@@ -1,6 +1,7 @@
 <template>
     <section>
         <h4>Наши преимущества</h4>
+        <img src="../assets/section-stock-line.png" alt="">
         <p>Преимущества покупки а/м в нашем салоне</p>
         <div class="container">           
             <div class="advantages-column">
@@ -40,6 +41,7 @@
 <style lang="scss" scoped>
 section {
     text-align: center;
+    margin-bottom: 90px;
 }
 
 .container {
@@ -75,11 +77,12 @@ h4 {
     font-size: 32px;
     line-height: 85.99px;
     letter-spacing: 0.16px;
-    margin-bottom: 5px;
+    margin-top: 100px;
 }
 
 section>p {
     line-height: 24px;
     letter-spacing: 0.08px;
+    margin-bottom: 90px;
 }
 </style>

@@ -20,11 +20,12 @@ section {
     font-size: 30px;
     letter-spacing: 0.3px;
     color: #333333;
+    padding: 48px;
 }
 
 h1 {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 h2 {
